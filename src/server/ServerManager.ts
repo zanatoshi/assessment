@@ -1,3 +1,6 @@
+import AbortController from 'abort-controller';
+import fetch from 'node-fetch';
+
 export const SERVERS = [
   {
     url: 'https://does-not-work.perfume.new',
